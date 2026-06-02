@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / models / checkpoints
+data/
+models/
+checkpoints/
+*.pt
+*.ckpt
+*.bin
+*.safetensors
+*.h5
+
+# Logs / outputs
+logs/
+runs/
+wandb/
+outputs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
